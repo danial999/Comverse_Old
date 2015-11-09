@@ -28,7 +28,6 @@
 		background-repeat: no-repeat;
 	}
 
-
 .third {
 	background-color: #5B9CBA;
 	height: 250px;
@@ -36,6 +35,14 @@
 
 
 }
+#Ann{
+	color: white;
+	font-size: 140%;
+	font-family: Century Gothic;
+	text-align: center;
+	word-spacing: normal;
+}
+
 .fourth {
 	background-image: url(source/img/news-and-events-bg.jpg);
 	background-size: 100% 100%;
