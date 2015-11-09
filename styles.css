@@ -42,6 +42,24 @@
 	text-align: center;
 	word-spacing: normal;
 }
+div#Button1 input {
+
+background: url('source/img/solution_icon_biz-analitics.png') no-repeat scroll 0 0 ;
+
+	border: none;
+	height: 60px;
+	width: 110px;
+   position: fixed;
+   bottom: 330px;
+   right: 1000px
+
+}
+div#Button1 input:hover{
+
+	background: url('source/img/solution_icon_biz-analitics_hover.png') no-repeat scroll 0 0 ;
+}
+
+
 
 .fourth {
 	background-image: url(source/img/news-and-events-bg.jpg);
