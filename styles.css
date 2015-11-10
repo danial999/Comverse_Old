@@ -114,6 +114,9 @@
 		width     : 100px;
 		padding-left: 5%;
 		}
+		div[id^="Button1"]{
+			padding-left: 0%;
+		}
 		div[id^="Button"] a{
 			text-decoration: none;
 			cursor: pointer;
@@ -122,7 +125,8 @@
 		cursor: pointer;
 		border: none;
 		height: 60px;
-		width: 130px;
+		width: 120px;
+		background-size: 100%;
 		position: relative;
 		float: left;
 		bottom: -10px;
@@ -130,25 +134,20 @@
 		
 		}
 		div[id^="Button"] span{
-			position: relative;
-			padding-top: 30%;
-		}
-		
-		div.third #Button1 #Button1-text,div.third #Button2 #Button2-text,div.third #Button3 #Button3-text,div.third #Button4 #Button4-text,div.third #Button5 #Button5-text,
-		div.third #Button5 #Button5-text,div.third #Button6 #Button6-text {
-
+		position: relative;
+		padding-top: 30%;
+		padding-left: 8%;
 		color: white;
 		font-size: 80%;
 		text-align: center;
 		font-family: Century Gothic;
-		/*word-spacing: normal;*/
-		/*white-space: nowrap;*/
-
 		-webkit-margin-before: 0px;
 		-webkit-margin-after: 0px;
-		clear:both; width: 150px;
-		  display: block;
+		clear:both; 
+		width: 120px;
+		display: block;
 		}
+		
 /*                      END OF THIRD LAYER                                                              */
 		
 		.fourth {
@@ -158,7 +157,7 @@
 		}
 
 		
-		div#fourth--title p, div#third--title p ,div#fourth--lay1 p,div#fourth--lay2 p,div#fourth--lay3 p {
+		div#fourth--title span, div#third--title span ,div#fourth--lay1 span,div#fourth--lay2 span,div#fourth--lay3 span {
 		color: white;
 		font-size: 120%;
 		font-family: Century Gothic;
@@ -168,9 +167,11 @@
 		-webkit-margin-before: 0px;
 		-webkit-margin-after: 0px;
 		}
-		div#fourth--title p, div#third--title p{
+		div#fourth--title span, div#third--title span{
 			padding-top: 0.5%;
-			font-size: 140%;
+			font-size: 130%;
+			text-align: center;
+			display: block;
 		}
 		
  	
