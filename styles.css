@@ -84,8 +84,8 @@
 
 		.third--link{
 			position: relative;
-			top:30%;
-			right: -40%
+			top:20%;
+		
 		}
 		.third--link .custom-button-style{
 			position: relative;
@@ -98,34 +98,40 @@
 			-moz-border-radius: 3px;
 			border-radius: 3px;
 			cursor: pointer;
-			text-decoration: none;
+			/*text-decoration: none;*/
 			font-family: Century Gothic;
+		}
+		.third--link .custom-button-style:hover{
+			color: #3366CC;
+			text-decoration-line: dotted;
 		}
 
 		
-		div#Button1 , div#Button2 ,div#Button3 ,div#Button4 ,div#Button5 ,div#Button6  {
+		div[id^="Button"]{
 		vertical-align: top;
 		display   : inline-block;
 		text-align: center;
-		width     : 150px;
+		width     : 100px;
+		padding-left: 5%;
 		}
-
-		div#Button1 input, div#Button2 input,div#Button3 input,div#Button4 input,div#Button5 input,div#Button6 input {
-		
+		div[id^="Button"] a{
+			text-decoration: none;
+			cursor: pointer;
+		}
+		div[id^="Button"] input {
+		cursor: pointer;
 		border: none;
 		height: 60px;
 		width: 130px;
 		position: relative;
 		float: left;
-		right:-170%;
 		bottom: -10px;
 		outline:none
 		
 		}
-		div#Button1 span,div#Button2 span,div#Button3 span,div#Button4 span,div#Button5 span,div#Button6 span{
+		div[id^="Button"] span{
 			position: relative;
-			right:-165%;
-			bottom: -20px;
+			padding-top: 30%;
 		}
 		
 		div.third #Button1 #Button1-text,div.third #Button2 #Button2-text,div.third #Button3 #Button3-text,div.third #Button4 #Button4-text,div.third #Button5 #Button5-text,
@@ -172,8 +178,8 @@
 		div#fourth--lay1,div#fourth--lay2,div#fourth--lay3{
 		position: relative;
 		float: left;
-		right:-23%;
+		right:-17%;
 		top: 15%;
-		width: 150px;
+		width: 300px;
 
 		}
