@@ -47,12 +47,15 @@
 		
 		
 /*            Buttons location                       */
-		div#Button1 input, div#Button2 input,div#Button3 input {
+		div#Button1 input, div#Button2 input,div#Button3 input,div#Button4 input,div#Button5 input,div#Button6 input {
 		
 		border: none;
 		height: 60px;
 		width: 110px;
 		position: relative;
+		float: left;
+		right:-23%;
+		bottom: -10px;
 		outline:none
 		
 		}
@@ -60,8 +63,8 @@
 		div#Button1 input {
 		
 		background: url('source/img/solution_icon_biz-analitics.png') no-repeat scroll 0 0 ;
-		bottom: 0px;
-		right: -27%;
+		/*bottom: -20px;*/
+		/*right: -27%;*/
 		}
 		div#Button1 input:hover{
 		
@@ -71,8 +74,8 @@
 		div#Button2 input {
 		
 		background: url('source/img/solution_icon_biz-transform.png') no-repeat scroll 0 0 ;
-		bottom: 60px;
-		right: -40%;
+		/*bottom: 60px;*/
+		/*right: -35%;*/
 		}
 		div#Button2 input:hover{
 		
@@ -80,15 +83,42 @@
 		}
 /*            Button3 Backgrond location and Hover change                       */		
 		div#Button3 input {
-		
 		background: url('source/img/solution_icon_diti-cx.png') no-repeat scroll 0 0 ;
-		bottom: 120px;
-		right: -50%;
+		/*bottom: 120px;*/
+		/*right: -43%;*/
 		}
 		div#Button3 input:hover{
-		
 		background: url('source/img/solution_icon_diti-cx_hover.png') no-repeat scroll 0 0 ;
 		}
+/*            Button4 Backgrond location and Hover change                       */		
+		div#Button4 input {
+		background: url('source/img/solution_icon_optimize-efficnt.png') no-repeat scroll 0 0 ;
+		/*bottom: 180px;*/
+		/*right: -51%;*/
+		}
+		div#Button4 input:hover{
+		background: url('source/img/solution_icon_optimize-efficnt_hover.png') no-repeat scroll 0 0 ;
+		}
+/*            Button4 Backgrond location and Hover change                       */		
+		div#Button5 input {
+		background: url('source/img/solution_icon_personal.png') no-repeat scroll 0 0 ;
+		/*bottom: 240px;*/
+		/*right: -59%;*/
+		}
+		div#Button5 input:hover{
+		background: url('source/img/solution_icon_personal_hover.png') no-repeat scroll 0 0 ;
+		}
+/*            Button4 Backgrond location and Hover change                       */		
+		div#Button6 input {
+		background: url('source/img/solution_icon_smart-money.png') no-repeat scroll 0 0 ;
+		/*bottom: 300px;*/
+		/*right: -67%;*/
+		}
+		div#Button6 input:hover{
+		
+		background: url('source/img/solution_icon_smart-money_hover.png') no-repeat scroll 0 0 ;
+		}
+
 		
 
 		
