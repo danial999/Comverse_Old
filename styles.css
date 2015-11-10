@@ -13,11 +13,10 @@
 		height: 63px;
 		width: 184px;
 		position: relative;
+
 		
 		
 		}
-		
-		
 		
 		
 		.second {
@@ -48,7 +47,7 @@
 		
 		
 /*            Buttons location                       */
-		div#Button1 input, div#Button2 input{
+		div#Button1 input, div#Button2 input,div#Button3 input {
 		
 		border: none;
 		height: 60px;
@@ -78,6 +77,17 @@
 		div#Button2 input:hover{
 		
 		background: url('source/img/solution_icon_biz-transform_hover.png') no-repeat scroll 0 0 ;
+		}
+/*            Button3 Backgrond location and Hover change                       */		
+		div#Button3 input {
+		
+		background: url('source/img/solution_icon_diti-cx.png') no-repeat scroll 0 0 ;
+		bottom: 120px;
+		right: -50%;
+		}
+		div#Button3 input:hover{
+		
+		background: url('source/img/solution_icon_diti-cx_hover.png') no-repeat scroll 0 0 ;
 		}
 		
 
