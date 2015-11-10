@@ -1,68 +1,91 @@
- 
- .first .logo {
- 	left :350px;
-
-}
- .first {
-	background-color: white;
-	
-}
-
-.first .logo {
- 	background-image: url(source/img/comverse-logo.png);
- 	height: 63px;
-   	width: 184px;
-	position: relative;
-
-
- }
-
-
-
-
-.second {
+		
+		.first .logo {
+		left :350px;
+		
+		}
+		.first {
+		background-color: white;
+		
+		}
+		
+		.first .logo {
+		background-image: url(source/img/comverse-logo.png);
+		height: 63px;
+		width: 184px;
+		position: relative;
+		
+		
+		}
+		
+		
+		
+		
+		.second {
 		background-image: url(source/img/slide-bg-complexity.jpg);
 		height: 300px;
 		background-size: 100% 100%;
 		back
 		background-repeat: no-repeat;
-	}
+		}
+		
+		.third {
+		background-color: #5B9CBA;
+		height: 250px;
+		background-size: 100% 100%;
+		
+		
+		}
+		#Ann{
+		color: white;
+		font-size: 140%;
+		font-family: Century Gothic;
+		text-align: center;
+		word-spacing: normal;
+		white-space: nowrap;
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		}
+		
+		
+/*            Buttons location                       */
+		div#Button1 input, div#Button2 input{
+		
+		border: none;
+		height: 60px;
+		width: 110px;
+		position: relative;
+		outline:none
+		
+		}
+/*            Button1 Backgrond location and Hover change                       */		
+		div#Button1 input {
+		
+		background: url('source/img/solution_icon_biz-analitics.png') no-repeat scroll 0 0 ;
+		bottom: 0px;
+		right: -27%;
+		}
+		div#Button1 input:hover{
+		
+		background: url('source/img/solution_icon_biz-analitics_hover.png') no-repeat scroll 0 0 ;
+		}
+/*            Button2 Backgrond location and Hover change                       */		
+		div#Button2 input {
+		
+		background: url('source/img/solution_icon_biz-transform.png') no-repeat scroll 0 0 ;
+		bottom: 60px;
+		right: -40%;
+		}
+		div#Button2 input:hover{
+		
+		background: url('source/img/solution_icon_biz-transform_hover.png') no-repeat scroll 0 0 ;
+		}
+		
 
-.third {
-	background-color: #5B9CBA;
-	height: 250px;
-	background-size: 100% 100%;
-
-
-}
-#Ann{
-	color: white;
-	font-size: 140%;
-	font-family: Century Gothic;
-	text-align: center;
-	word-spacing: normal;
-}
-div#Button1 input {
-
-background: url('source/img/solution_icon_biz-analitics.png') no-repeat scroll 0 0 ;
-
-	border: none;
-	height: 60px;
-	width: 110px;
-   position: fixed;
-   bottom: 330px;
-   right: 1000px
-
-}
-div#Button1 input:hover{
-
-	background: url('source/img/solution_icon_biz-analitics_hover.png') no-repeat scroll 0 0 ;
-}
-
-
-
-.fourth {
-	background-image: url(source/img/news-and-events-bg.jpg);
-	background-size: 100% 100%;
-	height: 250px
-}
+		
+		
+		
+		.fourth {
+		background-image: url(source/img/news-and-events-bg.jpg);
+		background-size: 100% 100%;
+		height: 250px
+		}
