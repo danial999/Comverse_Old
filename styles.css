@@ -26,66 +26,36 @@
 		back
 		background-repeat: no-repeat;
 		}
+
 		
 		.third {
 		background-color: #5B9CBA;
 		height: 250px;
 		background-size: 100% 100%;
-		
-		
 		}
-		#Ann{
-		color: white;
-		font-size: 140%;
-		font-family: Century Gothic;
-		text-align: center;
-		word-spacing: normal;
-		white-space: nowrap;
-		-webkit-margin-before: 0px;
-		-webkit-margin-after: 0px;
-		}
+
 		
 		
-/*            Buttons location                       */
-		div#Button1 input, div#Button2 input,div#Button3 input,div#Button4 input,div#Button5 input,div#Button6 input {
 		
-		border: none;
-		height: 60px;
-		width: 110px;
-		position: relative;
-		float: left;
-		right:-23%;
-		bottom: -10px;
-		outline:none
+/*      Third Layout  Buttons location                       */
 		
-		}
 /*            Button1 Backgrond location and Hover change                       */		
 		div#Button1 input {
-		
 		background: url('source/img/solution_icon_biz-analitics.png') no-repeat scroll 0 0 ;
-		/*bottom: -20px;*/
-		/*right: -27%;*/
 		}
 		div#Button1 input:hover{
-		
 		background: url('source/img/solution_icon_biz-analitics_hover.png') no-repeat scroll 0 0 ;
 		}
 /*            Button2 Backgrond location and Hover change                       */		
 		div#Button2 input {
-		
 		background: url('source/img/solution_icon_biz-transform.png') no-repeat scroll 0 0 ;
-		/*bottom: 60px;*/
-		/*right: -35%;*/
 		}
 		div#Button2 input:hover{
-		
 		background: url('source/img/solution_icon_biz-transform_hover.png') no-repeat scroll 0 0 ;
 		}
 /*            Button3 Backgrond location and Hover change                       */		
 		div#Button3 input {
 		background: url('source/img/solution_icon_diti-cx.png') no-repeat scroll 0 0 ;
-		/*bottom: 120px;*/
-		/*right: -43%;*/
 		}
 		div#Button3 input:hover{
 		background: url('source/img/solution_icon_diti-cx_hover.png') no-repeat scroll 0 0 ;
@@ -93,8 +63,6 @@
 /*            Button4 Backgrond location and Hover change                       */		
 		div#Button4 input {
 		background: url('source/img/solution_icon_optimize-efficnt.png') no-repeat scroll 0 0 ;
-		/*bottom: 180px;*/
-		/*right: -51%;*/
 		}
 		div#Button4 input:hover{
 		background: url('source/img/solution_icon_optimize-efficnt_hover.png') no-repeat scroll 0 0 ;
@@ -102,8 +70,6 @@
 /*            Button4 Backgrond location and Hover change                       */		
 		div#Button5 input {
 		background: url('source/img/solution_icon_personal.png') no-repeat scroll 0 0 ;
-		/*bottom: 240px;*/
-		/*right: -59%;*/
 		}
 		div#Button5 input:hover{
 		background: url('source/img/solution_icon_personal_hover.png') no-repeat scroll 0 0 ;
@@ -111,21 +77,103 @@
 /*            Button4 Backgrond location and Hover change                       */		
 		div#Button6 input {
 		background: url('source/img/solution_icon_smart-money.png') no-repeat scroll 0 0 ;
-		/*bottom: 300px;*/
-		/*right: -67%;*/
 		}
 		div#Button6 input:hover{
-		
 		background: url('source/img/solution_icon_smart-money_hover.png') no-repeat scroll 0 0 ;
 		}
 
-		
+		.third--link{
+			position: relative;
+			top:30%;
+			right: -40%
+		}
+		.third--link .custom-button-style{
+			position: relative;
+			padding: 10px 15px;
+			margin: 20px auto;
+			color: white;
+			background-color: #2195CA;
+			border: 0 none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			cursor: pointer;
+			text-decoration: none;
+			font-family: Century Gothic;
+		}
 
 		
+		div#Button1 , div#Button2 ,div#Button3 ,div#Button4 ,div#Button5 ,div#Button6  {
+		vertical-align: top;
+		display   : inline-block;
+		text-align: center;
+		width     : 150px;
+		}
+
+		div#Button1 input, div#Button2 input,div#Button3 input,div#Button4 input,div#Button5 input,div#Button6 input {
 		
+		border: none;
+		height: 60px;
+		width: 130px;
+		position: relative;
+		float: left;
+		right:-170%;
+		bottom: -10px;
+		outline:none
+		
+		}
+		div#Button1 span,div#Button2 span,div#Button3 span,div#Button4 span,div#Button5 span,div#Button6 span{
+			position: relative;
+			right:-165%;
+			bottom: -20px;
+		}
+		
+		div.third #Button1 #Button1-text,div.third #Button2 #Button2-text,div.third #Button3 #Button3-text,div.third #Button4 #Button4-text,div.third #Button5 #Button5-text,
+		div.third #Button5 #Button5-text,div.third #Button6 #Button6-text {
+
+		color: white;
+		font-size: 80%;
+		text-align: center;
+		font-family: Century Gothic;
+		/*word-spacing: normal;*/
+		/*white-space: nowrap;*/
+
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		clear:both; width: 150px;
+		  display: block;
+		}
+/*                      END OF THIRD LAYER                                                              */
 		
 		.fourth {
 		background-image: url(source/img/news-and-events-bg.jpg);
 		background-size: 100% 100%;
 		height: 250px
+		}
+
+		
+		div#fourth--title p, div#third--title p ,div#fourth--lay1 p,div#fourth--lay2 p,div#fourth--lay3 p {
+		color: white;
+		font-size: 120%;
+		font-family: Century Gothic;
+		text-align: center;
+		word-spacing: normal;
+		white-space: nowrap;
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		}
+		div#fourth--title p, div#third--title p{
+			padding-top: 0.5%;
+			font-size: 140%;
+		}
+		
+ 	
+
+		div#fourth--lay1,div#fourth--lay2,div#fourth--lay3{
+		position: relative;
+		float: left;
+		right:-23%;
+		top: 15%;
+		width: 150px;
+
 		}
