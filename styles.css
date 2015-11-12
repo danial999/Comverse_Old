@@ -1,6 +1,6 @@
 		
 		.first .logo {
-		left :240px;
+		left :300px;
 		width: 20px;
 		float: left;
 		
@@ -13,7 +13,7 @@
 
 		.menu{
 			padding-top: 20px;
-			padding-right: 13%;
+			padding-right: 17%;
 			float: right;
 		}
 		.menu2{
@@ -45,7 +45,7 @@
 		td[id^="menu"]{
 			color: #242322;
 			height: 3px;
-			font-size: 13px;
+			font-size: 10px;
 			text-align: center;
 			border-image: url(source/img/line_divider_video.png) 6 round;
 			border-right-width: 2px;
@@ -102,10 +102,53 @@
 		background-image: url(source/img/slide-bg-complexity.jpg);
 		height: 300px;
 		background-size: 100% 100%;
-		back
 		background-repeat: no-repeat;
 		}
+		.s-menu-table{
+    		border-collapse: separate;
+		}
+		.s-menu3{
+			float: left;
+			padding-left: 260px;
+			padding-top: 20px;
+		}
+		#s-list{
+			list-style-type: none;
+			color:white;
+			font-family: Century Gothic;
+			font-size: 25px;
+		}
+		#s-menu2{
+			padding-top: 10px;
+			font-size: 15px;
+			padding-bottom: 10px;
+	}
 
+		.third--link2 .custom-button2{
+			position: absolute;
+	
+			padding: 7px 15px;
+			margin: 10px auto;
+			color: white;
+			font-size: 15px;
+			text-decoration: none;
+			background-color: #2195CA;
+			border: 0 none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			cursor: pointer;
+			/*text-decoration: none;*/
+			font-family: Century Gothic;
+		}
+		.third--link2 .custom-button2:hover{
+			color: #3366CC;
+		}
+
+
+		td[id^="s-menu"]{
+			
+		}
 		
 		.third {
 		background-color: #5B9CBA;
@@ -171,6 +214,7 @@
 			padding: 10px 15px;
 			margin: 20px auto;
 			color: white;
+			text-decoration: none;
 			background-color: #2195CA;
 			border: 0 none;
 			-webkit-border-radius: 3px;
