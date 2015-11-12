@@ -1,12 +1,70 @@
 		
 		.first .logo {
 		left :350px;
+		width: 20px;
+		float: left;
 		
 		}
 		.first {
 		background-color: white;
+		height: 70px;
 		
 		}
+
+		.menu{
+			padding-top: 20px;
+			padding-right: 13%;
+			float: right;
+		}
+		.menu2{
+			padding-left: 1050px;
+		}
+
+		.menu-table,.lang-table{
+    		border-collapse: separate;
+
+		}
+		#search{
+			border-radius: 5px ;
+		}
+		#menu4{
+			padding-right: 30px;
+		}
+		td[id^="menu"]{
+			color: #242322;
+			height: 3px;
+			font-size: 13px;
+			text-align: center;
+			border-image: url(source/img/MYUXp.png) 6 round;
+			border-right-width: 2px;
+			border-left-width: 0px;
+			border-bottom-width: 0px;
+			border-top-width: 0px;
+			font-family: Century Gothic;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		td[id^='lang-menu']{
+			color: #242322;
+			height: 3px;
+			font-size: 13px;
+			text-align: center;
+			border-image: url(source/img/MYUXp.png) 6 round;
+			border-right-width: 2px;
+			border-left-width: 0px;
+			border-bottom-width: 0px;
+			border-top-width: 0px;
+			font-family: Century Gothic;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		.menu-table td:nth-last-child(3) {
+			border-right-width: 0px;
+		}
+		.lang-table td:nth-last-child(1) {
+			border-right-width: 0px;
+		}
+
 		
 		.first .logo {
 		background-image: url(source/img/comverse-logo.png);
