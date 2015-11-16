@@ -13,7 +13,7 @@
 
 		.menu{
 			padding-top: 20px;
-			padding-right: 17%;
+			padding-right: 14%;
 			float: right;
 		}
 		.menu2{
@@ -125,8 +125,8 @@
 	}
 
 		.third--link2 .custom-button2{
-			position: absolute;
-	
+			position: relative;
+			top: 0px;bottom: 5px; right: 10px;  left: -60px; 
 			padding: 7px 15px;
 			margin: 10px auto;
 			color: white;
@@ -235,7 +235,7 @@
 		display   : inline-block;
 		text-align: center;
 		width     : 100px;
-		padding-left: 5%;
+		padding-left: 3%;
 		}
 		div[id^="Button1"]{
 			padding-left: 0%;
@@ -272,17 +272,22 @@
 		}
 		
 /*                      END OF THIRD LAYER                                                              */
+
+/*                                        Third Layout                                                  */
+		
+/*        Start Forth Layout                    */		
 		
 		.fourth {
 		background-image: url(source/img/news-and-events-bg.jpg);
 		background-size: 100% 100%;
-		height: 300px
+		height: 300px;
+		
 		}
 
 		
 		div#fourth--title span, div#third--title span ,div#fourth--lay1 span#news,div#fourth--lay2 span#events,div#fourth--lay3 span#press {
 		color: white;
-		font-size: 120%;
+		font-size: 100%;
 		font-family: Century Gothic;
 		text-align: center;
 		word-spacing: normal;
@@ -297,7 +302,7 @@
 			
 		}
 		div#fourth--title span, div#third--title span{
-			padding-top: 0.5%;
+			padding-top: 1%;
 			font-size: 130%;
 			text-align: center;
 			display: block;
@@ -308,9 +313,10 @@
 		div#fourth--lay1,div#fourth--lay2,div#fourth--lay3{
 		position: relative;
 		float: left;
-		right:-5%;
+		left:20%;
 		top: 10%;
-		width: 30%;
+		width: 21%;
+
 
 		}
 		#custom--date,#custom--date1,#custom--date2 {
@@ -329,10 +335,10 @@
 			position: absolute;
 			top: 50%;bottom: 5%; right: 10%;  left: 0; 
  			/*padding: 15% 20%;*/
- 			height: 150px;
+ 			height: 130px;
 			margin: 5% auto;
 			background-color: rgba(255,255,255,0.3);
-
+		/
 			border: 0 none;
 			-webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
@@ -353,7 +359,7 @@
 			text-align: center;
 			position: absolute;
 			right: 70%;  left: 5%; 
-			height: 75px;
+			height: 65px;
 			margin: 5% auto;
 			background-color: #2A97CD;
 			border: 0 none;
@@ -369,7 +375,7 @@
 			text-align: center;
 			position: absolute;
 			bottom: 0%; right: 70%;  left: 5%; 
-			height: 40px;
+			height: 35px;
  			/*padding: 40px 400px;*/
 			margin: 15px auto;
 			background-color: #2A97CD;
@@ -384,8 +390,9 @@
 			}
 
 			#fourth--lay--text{
-				padding-left: 130px;
+				padding-left: 100px;
 				padding-top: 10px;
+				font-size: 13px;
 			}
 			#news--icon{
 				background: url('source/img/eventListIconNews.png') no-repeat scroll 0 0 ;
@@ -409,7 +416,7 @@
 			.icon-pos{
 				position: absolute;
 				left: 5px;
-				top: 175px;
+				top: 155px;
 			
 			}
 			.icon-pos p{
