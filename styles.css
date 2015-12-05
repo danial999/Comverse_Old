@@ -27,6 +27,7 @@
 		#search{
 			border-radius: 5px ;
 			border-width: 1px ;
+			
 		}	
 		#input_container { position:relative; padding:0; margin:0; }
 		#input {  height:20px; margin:0; padding-left: 30px; }
@@ -100,7 +101,7 @@
 		
 		.second {
 		background-image: url(source/img/slide-bg-complexity.jpg);
-		height: 300px;
+		height: 400px;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		}
@@ -110,8 +111,99 @@
 		.s-menu3{
 			float: left;
 			padding-left: 260px;
-			padding-top: 20px;
+			padding-top: 0px;
 		}
+		.third--link2 .custom-button2{
+		
+			float: left;
+			padding: 7px 15px;
+			margin: 10px auto;
+			color: white;
+			font-size: 15px;
+			text-decoration: none;
+			background-color: #2195CA;
+			border: 0 none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			cursor: pointer;
+
+			/*text-decoration: none;*/
+			font-family: Century Gothic;
+		}
+		.third--link2 .custom-button2:hover{
+			color: #3366CC;
+		}
+
+
+		.flyer{
+	
+			float: left;
+			/*clear: left;*/
+			padding-top: 2%;
+			padding-left:19%;
+			color: white;
+
+		}
+		#note1{
+			background-color: rgba(250,30,148,0.8);
+		}
+		#note2{
+			background-color: rgba(255,123,22,0.8);
+		}
+		#note3{
+			background-color: rgba(111,202,52,0.8);
+		}
+		#note1:hover{
+			background-color: rgba(250,30,148,1);
+		}
+		#note2:hover{
+			background-color: rgba(255,123,22,1);
+		}
+		#note3:hover{
+			background-color: rgba(111,202,52,1);
+		}
+	
+		
+		div[id^="note"]{
+			
+			float: left;
+			width: 240px;
+			height: 150px;
+			margin: 0% 30px;
+
+			border: 0 none;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			cursor: pointer;
+			/*text-decoration: none;*/
+			font-family: Century Gothic;
+
+		}
+		#note-text{
+			
+			padding-left: 20px;
+			padding-right: 10px;
+			font-size: 17px;
+		}
+		#note--icon{
+				background: url('source/img/link-icon-image.png') no-repeat scroll 0 0 ;
+				height: 25px;
+				width: 80px;	
+		}
+		.note-icon-pos{
+			position: relative;
+			float: left;
+			
+			margin-left: 10px;
+
+		}
+		#note--icon--text {
+			padding-left: 40px;
+				color: white;
+			}
+
 		#s-list{
 			list-style-type: none;
 			color:white;
@@ -124,33 +216,14 @@
 			padding-bottom: 10px;
 	}
 
-		.third--link2 .custom-button2{
-			position: relative;
-			top: 0px;bottom: 5px; right: 10px;  left: -60px; 
-			padding: 7px 15px;
-			margin: 10px auto;
-			color: white;
-			font-size: 15px;
-			text-decoration: none;
-			background-color: #2195CA;
-			border: 0 none;
-			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-			cursor: pointer;
-			/*text-decoration: none;*/
-			font-family: Century Gothic;
-		}
-		.third--link2 .custom-button2:hover{
-			color: #3366CC;
-		}
-
+		
 
 		td[id^="s-menu"]{
 			
 		}
 		
 		.third {
+			clear: both;
 		background-color: #5B9CBA;
 		height: 250px;
 		background-size: 100% 100%;
@@ -206,7 +279,7 @@
 
 		.third--link{
 			position: relative;
-			top:20%;
+			top:10%;
 		
 		}
 		.third--link .custom-button{
@@ -285,7 +358,8 @@
 		}
 
 		
-		div#fourth--title span, div#third--title span ,div#fourth--lay1 span#news,div#fourth--lay2 span#events,div#fourth--lay3 span#press {
+		div#fourth--title span, div#third--title span ,div#fourth--lay1 span#news,div#fourth--lay2 span#events,
+		div#fifth--title span,div#fourth--lay3 span#press {
 		color: white;
 		font-size: 100%;
 		font-family: Century Gothic;
@@ -301,13 +375,13 @@
 
 			
 		}
-		div#fourth--title span, div#third--title span{
-			padding-top: 1%;
+		div#fourth--title span, div#third--title span,div#fifth--title span{
+			padding-top: 2%;
 			font-size: 130%;
 			text-align: center;
 			display: block;
 		}
-		
+
  	
 
 		div#fourth--lay1,div#fourth--lay2,div#fourth--lay3{
@@ -338,7 +412,7 @@
  			height: 130px;
 			margin: 5% auto;
 			background-color: rgba(255,255,255,0.3);
-		/
+		
 			border: 0 none;
 			-webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
@@ -450,3 +524,42 @@
 
 
 		
+
+		.fifth {
+		
+		background-color: #F7ECDC;
+		height: 400px;
+		background-size: 100% 100%;
+
+		}
+		div#fifth--title span{
+			color: black;
+			display: block;
+		}
+		.fifth--lay1{
+			position: relative;
+			float: left;
+		    height: 160px;
+		    width: 19%;
+		    margin: 2% 20%;
+		    background-color: rgba(255,255,255,0.8);
+		    border: 0 none;
+		 
+		    cursor: pointer;
+		    /* text-decoration: none; */
+		    font-family: Century Gothic;
+		}
+		#fifth--divider{
+			margin-top: 100px;
+			margin-left: 2%;
+			
+			height: 4px;
+			width: 95%;
+		background: url('source/img/ver-divider.png');
+		}
+		#img--lay1{
+			height: 80%;
+			width: 30%;
+			float: left;
+		background: url('source/img/CB-JP-face.png');
+		}
