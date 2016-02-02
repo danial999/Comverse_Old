@@ -1,4 +1,9 @@
 		
+
+		h1 {
+			font-size: 2em;
+			font-weight: normal;
+		}
 		.first .logo {
 		left :300px;
 		width: 20px;
@@ -361,13 +366,18 @@
 		div#fourth--title span, div#third--title span ,div#fourth--lay1 span#news,div#fourth--lay2 span#events,
 		div#fifth--title span,div#fourth--lay3 span#press {
 		color: white;
-		font-size: 100%;
+		font-size: 130%;
 		font-family: Century Gothic;
 		text-align: center;
 		word-spacing: normal;
 		white-space: nowrap;
 		-webkit-margin-before: 0px;
 		-webkit-margin-after: 0px;
+		}
+
+		div#fourth--lay1 span#news,div#fourth--lay2 span#events,
+		div#fifth--title span,div#fourth--lay3 span#press {
+
 		}
 		div#fourth--lay1 span,div#fourth--lay2 span,div#fourth--lay3 span {
 			float: left;
@@ -380,6 +390,10 @@
 			font-size: 130%;
 			text-align: center;
 			display: block;
+		}
+		div#fourth--title span{
+			padding-top: 3%;
+			padding-bottom: 1%;
 		}
 
  	
@@ -443,6 +457,8 @@
 			cursor: pointer;
 			font-family: Century Gothic;
 			border-bottom: 2px dotted white;
+			    color: #FFFFFF;
+  
 
 			}
 		.news-month {
@@ -472,6 +488,7 @@
 				background: url('source/img/eventListIconNews.png') no-repeat scroll 0 0 ;
 				height: 17px;
 				width: 30px;
+
 				
 			}
 			#events--icon{
@@ -490,7 +507,7 @@
 			.icon-pos{
 				position: absolute;
 				left: 5px;
-				top: 155px;
+				top: 160px;
 			
 			}
 			.icon-pos p{
@@ -502,7 +519,11 @@
 				color: white;
 				position: relative;
 				float: right;
-				padding-top: 15px;
+				padding-top: 5px;
+				font-size: 1em;
+				text-align: center;
+				color: white
+				
 			}
 			.icon-pos:hover {
 				cursor: pointer;
@@ -521,45 +542,178 @@
 				color:black;
 			}
 			
-
+/********************************************************************************************************************/
 
 		
 
 		.fifth {
 		
-		background-color: #F7ECDC;
-		height: 400px;
-		background-size: 100% 100%;
+		    padding: 0 0 60px;
+}
+		
 
-		}
-		div#fifth--title span{
-			color: black;
-			display: block;
-		}
-		.fifth--lay1{
-			position: relative;
-			float: left;
-		    height: 160px;
-		    width: 19%;
-		    margin: 2% 20%;
-		    background-color: rgba(255,255,255,0.8);
-		    border: 0 none;
-		 
-		    cursor: pointer;
-		    /* text-decoration: none; */
-		    font-family: Century Gothic;
-		}
-		#fifth--divider{
-			margin-top: 100px;
-			margin-left: 2%;
-			
-			height: 4px;
-			width: 95%;
-		background: url('source/img/ver-divider.png');
-		}
-		#img--lay1{
-			height: 80%;
-			width: 30%;
-			float: left;
-		background: url('source/img/CB-JP-face.png');
-		}
+		
+		
+	.success-stories {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgb(236, 236, 236);
+	height: 500px;
+}
+	
+.container {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+	
+.content-wrapper {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+section {
+	box-shadow: 0 1px 3px 0 grey;
+	overflow: hidden;
+}
+
+.story-item {
+	width: 350px;
+	height: 315px;
+	margin: 0 10px 10px 0;
+	color: #7c7c7c;
+	float: left;
+}
+
+.story-item:last-child {
+	width: 230px;
+	margin: 0 0 10px 0;
+}
+
+.story-details {
+	background: rgb(255, 255, 255);
+	padding: 18px;
+	border-radius: 2px;
+	margin: 0 0 10px 0;
+}
+
+
+.story-details.down-view {
+	margin-top: 112px;
+}
+
+.story-details a:link, .story-details a:visited {
+	text-decoration: none;
+	color: #7c7c7c;
+}
+
+.quote {
+	border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.quote-image {
+	height: 110px;
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.quote-text p {
+	margin: 0 0 25px 0;
+	overflow: hidden;
+}
+
+.smaller-text {
+	font-size: 0.8em;
+}
+
+.author {
+	font-size: 0.8em;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.company {
+	font-weight: normal;
+	margin: 0;
+}
+
+.company-logo {
+
+	float: right;
+	height: 30px;
+}
+
+img.company-logo {
+    -webkit-filter: grayscale(100%) opacity(50%);
+    filter: grayscale(100%) opacity(50%);
+}
+
+.name {
+	color: #4fadde;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 5px 0 0 0;
+}
+
+
+.client-logo {
+	width: 110px;
+	height: 100px;
+	background: rgb(255, 255, 255);
+	border-radius: 2px;
+	float: left;
+	margin: 0 0 10px 10px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	
+}
+.no-style-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.client-logo:first-child {
+	margin: 0 0 10px 0;
+}
+
+.client-logo img {
+	display: inline-block;
+	vertical-align: middle;
+    -webkit-filter: grayscale(100%) opacity(50%);
+    filter: grayscale(100%) opacity(50%);
+}
+
+.client-logo:after {
+	background: #3aa6db;
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    height: 0px;
+
+
+}
+
+.client-logo:hover:after {
+	height: 100%;
+}
+.clients.up-view {
+	margin-top: -344px;
+	position: absolute;
+}
+
+
+.success-stories h1 {
+	font-size: 2em;
+	text-align: center;
+	color: rgb(86, 86, 86);
+	text-transform: uppercase;
+}
+
+
+
+
