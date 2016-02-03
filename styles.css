@@ -5,24 +5,27 @@
 			font-weight: normal;
 		}
 		.first .logo {
-		left :300px;
-		width: 20px;
+		left :21%;
+		
 		float: left;
 		
 		}
 		.first {
 		background-color: white;
 		height: 70px;
-		
+		width: 100%;
+	
 		}
 
 		.menu{
 			padding-top: 20px;
 			padding-right: 14%;
+			padding-left: 20%;
 			float: right;
+			overflow: visible;
 		}
 		.menu2{
-			padding-left: 960px;
+			padding-left: 70%;
 		}
 
 		.menu-table,.lang-table{
@@ -73,8 +76,8 @@
 			border-bottom-width: 0px;
 			border-top-width: 0px;
 			font-family: Century Gothic;
-			padding-right: 10px;
-			padding-left: 10px;
+			/*padding-right: 10px;*/
+			/*padding-left: 10px;*/
 		}
 		.menu-table td:nth-last-child(3) {
 			border-right-width: 0px;
@@ -109,13 +112,16 @@
 		height: 400px;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
+		width: 100%;
+		overflow-x: visible;
+		overflow-y: visible;
 		}
 		.s-menu-table{
     		border-collapse: separate;
 		}
 		.s-menu3{
 			float: left;
-			padding-left: 260px;
+			padding-left: 18.5%;
 			padding-top: 0px;
 		}
 		.third--link2 .custom-button2{
@@ -195,7 +201,7 @@
 		#note--icon{
 				background: url('source/img/link-icon-image.png') no-repeat scroll 0 0 ;
 				height: 25px;
-				width: 80px;	
+				
 		}
 		.note-icon-pos{
 			position: relative;
@@ -205,6 +211,7 @@
 
 		}
 		#note--icon--text {
+			position: relative;
 			padding-left: 40px;
 				color: white;
 			}
@@ -232,6 +239,7 @@
 		background-color: #5B9CBA;
 		height: 250px;
 		background-size: 100% 100%;
+		overflow:auto
 		}
 
 		
@@ -357,9 +365,10 @@
 		
 		.fourth {
 		background-image: url(source/img/news-and-events-bg.jpg);
-		background-size: 100% 100%;
+	
 		height: 300px;
-		
+		width: 100%;
+		background-size: 100% 100%;
 		}
 
 		
@@ -383,6 +392,7 @@
 			float: left;
 			position: relative;
 
+
 			
 		}
 		div#fourth--title span, div#third--title span,div#fifth--title span{
@@ -390,6 +400,7 @@
 			font-size: 130%;
 			text-align: center;
 			display: block;
+
 		}
 		div#fourth--title span{
 			padding-top: 3%;
@@ -426,7 +437,7 @@
  			height: 130px;
 			margin: 5% auto;
 			background-color: rgba(255,255,255,0.3);
-		
+			width: 90%;
 			border: 0 none;
 			-webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
@@ -480,9 +491,10 @@
 			}
 
 			#fourth--lay--text{
-				padding-left: 100px;
+				padding-left: 34%;
 				padding-top: 10px;
 				font-size: 13px;
+				overflow: hidden;
 			}
 			#news--icon{
 				background: url('source/img/eventListIconNews.png') no-repeat scroll 0 0 ;
@@ -516,13 +528,29 @@
 				
 			}
 			#icon--text {
+				
 				color: white;
 				position: relative;
 				float: right;
 				padding-top: 5px;
 				font-size: 1em;
 				text-align: center;
-				color: white
+				color: white;
+				
+
+				
+			}
+			#icon--text2 {
+				
+				color: white;
+				position: relative;
+				float: right;
+				padding-top: 5px;
+				font-size: 1em;
+				text-align: center;
+				color: white;
+				 white-space: normal;
+
 				
 			}
 			.icon-pos:hover {
@@ -546,10 +574,7 @@
 
 		
 
-		.fifth {
-		
-		    padding: 0 0 60px;
-}
+	
 		
 
 		
@@ -557,7 +582,7 @@
 	.success-stories {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background: rgb(236, 236, 236);
-	height: 500px;
+	height: 520px;
 }
 	
 .container {
@@ -714,6 +739,161 @@ img.company-logo {
 	text-transform: uppercase;
 }
 
+.third--link{
+	text-align: center;
+	clear: both;
+}
+
+/********************************************************************************************************************/
+footer {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	color: #dbdbdb;
+	background: url(source/img/footer-bg.png);
+	height: 350px;
+}
+
+footer a:link {
+	text-decoration: none;
+}
+
+footer a:link:hover {
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #dbdbdb;
+}
+
+.categories {
+	float: left;
+}
+
+.category {
+	float: left;
+	margin-right: 60px;
+}
+
+.category-header {
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 1em;
+}
+
+.posts-subscribe {
+	float: right;
+	width: 260px;
+	height: 320px;
+	background: rgba(221, 211, 203, 0.15);
+	color: white;
+}
+
+.posts-subscribe h1 {
+	color: #4ea7d3;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.latest-posts {
+	border-bottom: 1px solid rgb(106, 106, 106);
+	margin: 20px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+}
+
+.post-title {
+	padding-top: 15px;
+}
+
+.footer-date {
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-day {
+	font-weight: bolder;
+	font-size: 2.5em;
+	padding-bottom: 0;
+}
+
+.footer-month {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 0;
+}
+
+.subscription {
+	margin: 20px;
+}
+
+.subscribe-form {
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	background: white;
+}
+
+.subscribe-email {
+	width: 67%;
+	height: 26px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: none;
+	border-radius: 2px;
+	background: white;
+}
+
+.subscribe-submit {
+	background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
+	color: white;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	height: 26px;
+	width: 30%;
+	float: right;
+	padding: 0;
+}
+
+.social-menu {
+	margin-top: 35px;
+}
+
+.social-menu-item {
+	float: left;
+	margin-right: 10px;
+}
+
+#social-youtube:hover {
+	content: url(source/img/socialMenuIcon-youtube_hover.png);
+}
+
+#social-twitter:hover {
+	content: url(source/img/socialMenuIcon-twitter_hover.png);
+}
+
+#social-linkedin:hover {
+	content: url(source/img/socialMenuIcon-linkdin_hover.png);
+}
 
 
+.mobile-footer {
+	display: none;
+}
 
+.copyright {
+	display: block;
+	clear: left;
+	padding-top: 65px;
+	color: rgb(113, 113, 113);
+}
+
+.copyright a:visited {
+	color: rgb(113, 113, 113);
+}
+
+.mobile-copyright {
+	display: none;
+}
